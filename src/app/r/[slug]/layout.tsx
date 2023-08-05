@@ -53,7 +53,7 @@ const Layout = async ({
   })
 
   return (
-    <div className="sm:container max-w-7xl mx-auto h-full py-32">
+    <div className="sm:container max-w-7xl mx-auto h-full py-12">
       <div>
         {/* TODO: Button to go back */}
 
