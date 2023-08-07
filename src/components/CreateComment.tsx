@@ -40,8 +40,8 @@ const CreateComment: FC<CreateCommentProps> = ({ postId, replyToId }) => {
       }
 
       return toast({
-        title: "There was a problem",
-        description: "Something went wrong, please try again later.",
+        title: "Something went wrong",
+        description: "Comment was not posted successfully, please try again.",
         variant: "destructive",
       })
     },
